@@ -14,15 +14,29 @@
   color: white;
 }
 
+.App-profile img {
+  border-radius: 50%;
+  max-width: 25%;
+  height: auto;
+  float: left;
+  padding-left: 30px;
+}
+
+.App-body p {
+  padding: 8px;
+  font-family: 'Actor, sans-serif';
+  font-size: 30px;
+  text-decoration: none;
+  letter-spacng: 2px;
+  color: #000080;
+  max-width: 100%;
+}
+
+
 .App-title {
   font-size: 1.5em;
 }
 
 .App-intro {
   font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

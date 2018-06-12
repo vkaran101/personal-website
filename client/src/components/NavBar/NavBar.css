@@ -26,3 +26,28 @@ li a {
   letter-spacing: 3px;
   color: #000080;
 }
+
+.Header {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+h3 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+h3 a {
+  display: block;
+  padding: 8px;
+  font-family: 'Actor, sans-serif';
+  font-size: 60px;
+  text-decoration: none;
+  letter-spacing: 3px;
+  color: #000080;
+}
