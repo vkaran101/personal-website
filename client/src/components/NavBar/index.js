@@ -4,6 +4,7 @@ import About from './../About';
 import Portfolio from './../Portfolio';
 import Blog from './../Blog';
 import App from './../App';
+import resume from './../../files/resume.pdf';
 import './NavBar.css';
 
 export default class NavBar extends Component {
@@ -17,7 +18,7 @@ export default class NavBar extends Component {
           <div className="NavBar">
             <ul>
               <li><Link to="/about">About Me</Link></li>
-              <li><a>RESUME</a></li>
+              <li><a href={resume}>RESUME</a></li>
               <li><Link to="/portfolio">PORTFOLIO</Link></li>
               <li><Link to="/blog">BLOG</Link></li>
             </ul>
